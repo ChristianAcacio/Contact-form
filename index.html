@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    
+</head>
+<body>
+
+    <div class="fundo">
+    <header>
+        <h1>
+            Contact Us
+        </h1>
+    </header>
+
+    <main>
+
+        <div class="div_name">
+            <div class="camp1" id="camp1">
+                <label for="first_name">First Name:</label>
+                <form>
+                    <input type="text" id="first_name" class="first_name">
+                </form>
+                <div id="erro_camp1"></div>
+            </div>
+
+            <div class="camp2">
+                <label for="last_name">Last Name:</label>
+                <form>
+                    <input type="text" id="last_name" class="last_name">
+                </form>
+                <div id="erro_camp2"></div>
+            </div>
+        </div>
+
+        <div class="div_email">
+            <label for="email">Email Adress:</label>
+            <form>
+                <input type="text" id="email" class="email">
+            </form>
+            <div id="erro_email"></div>
+        </div>
+
+        <div class="div_query">
+            <p>Query Type:</p>
+            <div class="div_query2">
+                <form class="part1">
+                    <label for="General">General Enquiry</label>
+                    <input type="radio" id="General">
+                </form>
+                <form class="part2">
+                    <label for="Support">Support Request</label>
+                    <input type="radio" id="Support">
+                </form>
+            </div>
+        </div>
+
+        <div class="div_message">
+            <label for="message">Message:</label>
+            <textarea id="message" class="message"></textarea>
+        </div>
+        <div id="erro_message" class="erro_message"></div>
+
+        <div class="div_checkbox">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">I consent to being contacted by the team</label>
+        </div>
+
+        <button id="Submit" onclick="submit()">Submit</button>
+
+
+
+
+    </main>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #E0F1E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo{
+    width: 500px;
+    height: 640px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2.5%;
+}
+
+
+
+header{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+input {
+    border-color: green;
+    border-width: 1px ;
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+
+.div_name{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+
+.div_email{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.div_email input{
+    width: 480px;
+}
+
+.div_query{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.div_query2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.div_query input{
+    width: 20px;
+    height: 20px;  
+}
+
+.part1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    flex-wrap: nowrap;
+    width: 220px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: solid green;
+    border-width: 1px;
+    border-radius: 5px;
+    
+}
+
+.part2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    flex-wrap: nowrap;
+    width: 220px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: solid green;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.div_message{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.div_message input{
+    width: 480px;
+    height: 100px;  
+}
+
+.message {
+    width: 455px;
+    height: 100px;
+    resize: none;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    overflow: auto;
+    padding: 10px; 
+    vertical-align: top;
+    border-radius: 10px;
+    border-color: green;
+  }
+  
+
+.div_checkbox{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+
+.div_checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+button{
+    background-color: #0C7D69;
+    color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 480px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.erro_message{
+    margin-left: 10px;
+}
