@@ -13,7 +13,7 @@ function submit(){
     const mensagem = document.getElementById("message").value.trim();
     const erromessage = document.getElementById("erro_message");
 
-
+    const ok = document.getElementById("sucesso");
 
 
 
@@ -72,6 +72,9 @@ function submit(){
         document.getElementById("message").style.border = "1px solid red";
     }  
 
+    else{
+        window.location.href = 'sucesso.html';
+    }
 
 
 }
