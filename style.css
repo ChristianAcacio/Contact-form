@@ -173,6 +173,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 
 .imagepg2{
@@ -193,7 +194,7 @@ picture{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .ppg2-2{
